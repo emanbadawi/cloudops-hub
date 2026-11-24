@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudOps Hub | Infrastructure Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-icon">☁</span>
+            <span>CloudOps Hub</span>
+        </div>
+        <div class="status">
+            <span class="status-dot"></span>
+            Infrastructure Dashboard
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <p class="eyebrow">CLOUD INFRASTRUCTURE</p>
+            <h1>Welcome to CloudOps Hub</h1>
+            <p>Monitor your cloud application and infrastructure in one place.</p>
+        </section>
+
+        <section class="overview">
+            <h2>Infrastructure Overview</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="card-icon">☁</span>
+                    <p>Cloud Provider</p>
+                    <h3>Amazon Web Services</h3>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">⚙</span>
+                    <p>Compute Service</p>
+                    <h3>Amazon EC2</h3>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">⇄</span>
+                    <p>Load Balancing</p>
+                    <h3>Application Load Balancer</h3>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">↗</span>
+                    <p>Content Delivery</p>
+                    <h3>Amazon CloudFront</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="instance-section">
+            <div class="section-heading">
+                <div>
+                    <h2>EC2 Instance Information</h2>
+                    <p>Live metadata retrieved from the running EC2 instance.</p>
+                </div>
+                <span class="coming-soon">CONNECTING SOON</span>
+            </div>
+
+            <div class="instance-grid">
+                <div class="instance-card">
+                    <p>Instance ID</p>
+                    <h3 id="instance-id">Waiting for AWS...</h3>
+                </div>
+
+                <div class="instance-card">
+                    <p>Availability Zone</p>
+                    <h3 id="availability-zone">Waiting for AWS...</h3>
+                </div>
+
+                <div class="instance-card">
+                    <p>Private IP Address</p>
+                    <h3 id="private-ip">Waiting for AWS...</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="application-section">
+            <h2>Application Status</h2>
+            <div class="application-card">
+                <div>
+                    <span class="status-dot"></span>
+                    <strong>CloudOps Hub Application</strong>
+                </div>
+                <span class="coming-soon">LOCAL PREVIEW</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>CloudOps Hub · Cloud Infrastructure Demonstration Project</p>
+            <p>Built with AWS, Linux and modern web technologies.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
